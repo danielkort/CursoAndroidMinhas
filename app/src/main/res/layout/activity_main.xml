@@ -22,20 +22,19 @@
 
     <EditText
         android:id="@+id/editPrimeiroNome"
-        android:layout_width="369dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_primeiro_nome"
         android:inputType="text"
-        app:layout_constrainedWidth="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/editTelefone"
-        android:layout_width="369dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
         android:ems="10"
@@ -48,7 +47,7 @@
 
     <EditText
         android:id="@+id/editSobrenome"
-        android:layout_width="369dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="28dp"
         android:ems="10"
@@ -61,7 +60,7 @@
 
     <EditText
         android:id="@+id/editNomeCurso"
-        android:layout_width="369dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
         android:ems="10"
@@ -89,7 +88,7 @@
         android:id="@+id/btnSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
+        android:layout_marginStart="172dp"
         android:layout_marginBottom="40dp"
         android:backgroundTint="@color/botoes"
         android:text="@string/txt_button_salvar"
